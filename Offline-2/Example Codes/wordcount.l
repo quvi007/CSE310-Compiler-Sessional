@@ -1,8 +1,8 @@
 %option noyywrap
 
 %{
-#include<stdio.h>
-#include<stdlib.h>
+#include<iostream>
+using namespace std;
 
 int word_count=0;
 int line_count=1;
@@ -16,9 +16,27 @@ Letter [a-zA-Z]
 
 %%
 [ \t\v]+ {}
-{Letter}+ {IncWc(); printf("%s word found\n",yytext);}
+
+if {cout << "<IF> ";}
+for {cout << "<FOR> ";}
+do {cout << "<DO> ";}
+int {cout << "<INT> ";}
+float {cout << "<FLOAT> ";}
+void {cout << "<VOID> ";}
+switch {cout << "<SWITCH> ";}
+default {cout << "<DEFAULT> ";}
+else {cout << "<ELSE> ";}
+while {cout << "<WHILE> ";}
+break {cout << "<BREAK> ";}
+char {cout << "<CHAR> ";}
+double {cout << "<DOUBLE> ";}
+return {cout << "<RETURN> ";}
+case {cout << "<CASE> ";}
+continue {cout << "<CONTINUE> ";}
+
+{Letter}+ {}
 [\n] {line_count++;}
-<<EOF>> {printf("Total Line Number: %d and word number: %d\n",line_count,word_count); return 0;}
+<<EOF>> {cout << "Total Line Number: " << line_count << " and word number: " << word_count << "\n"; return 0;}
 . {}
 %%
 

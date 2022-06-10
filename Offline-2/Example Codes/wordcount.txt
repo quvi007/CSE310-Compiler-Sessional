@@ -1,3 +1,7 @@
-abcd efgh ijk
-lmn opq
-rstuv 123
+int main() {
+    if (x > 4) {
+        for (int i = 0; i < 5; ++i) {
+            switch (case);
+        }
+    }
+}

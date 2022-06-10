@@ -1,3 +1,3 @@
-flex -o 1705037.cpp 1705037.l
-g++ 1705037.cpp -lfl -o 1705037.out
-./1705037.out 1705037.txt
+flex -owordcount.cpp wordcount.l
+g++ -o wordcount.out wordcount.cpp
+./wordcount.out wordcount.txt
