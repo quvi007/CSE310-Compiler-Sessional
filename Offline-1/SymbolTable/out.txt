@@ -1,0 +1,158 @@
+New ScopeTable with id 1.1 created
+Inserted in ScopeTable# 1.1 at position 1, 0
+New ScopeTable with id 1.1.1 created
+Inserted in ScopeTable# 1.1.1 at position 2, 0
+New ScopeTable with id 1.1.1.1 created
+Inserted in ScopeTable# 1.1.1.1 at position 2, 0
+Inserted in ScopeTable# 1.1.1.1 at position 3, 0
+
+ScopeTable # 1.1.1.1
+0 -->
+1 -->
+2 -->  < b : b>
+3 -->  < c : c>
+4 -->
+5 -->
+6 -->
+7 -->
+
+ScopeTable # 1.1.1
+0 -->
+1 -->
+2 -->  < b : b>
+3 -->
+4 -->
+5 -->
+6 -->
+7 -->
+
+ScopeTable # 1.1
+0 -->
+1 -->  < a : a>
+2 -->
+3 -->
+4 -->
+5 -->
+6 -->
+7 -->
+
+ScopeTable # 1
+0 -->
+1 -->
+2 -->
+3 -->
+4 -->
+5 -->
+6 -->
+7 -->
+Found in ScopeTable# 1.1.1.1 at position 2, 0
+Found in ScopeTable# 1.1 at position 1, 0
+ScopeTable with id 1.1.1.1 removed
+New ScopeTable with id 1.1.1.2 created
+Inserted in ScopeTable# 1.1.1.2 at position 4, 0
+
+ScopeTable # 1.1.1.2
+0 -->
+1 -->
+2 -->
+3 -->
+4 -->  < d : d>
+5 -->
+6 -->
+7 -->
+
+ScopeTable # 1.1.1
+0 -->
+1 -->
+2 -->  < b : b>
+3 -->
+4 -->
+5 -->
+6 -->
+7 -->
+
+ScopeTable # 1.1
+0 -->
+1 -->  < a : a>
+2 -->
+3 -->
+4 -->
+5 -->
+6 -->
+7 -->
+
+ScopeTable # 1
+0 -->
+1 -->
+2 -->
+3 -->
+4 -->
+5 -->
+6 -->
+7 -->
+Found in ScopeTable# 1.1.1 at position 2, 0
+ScopeTable with id 1.1.1.2 removed
+ScopeTable with id 1.1.1 removed
+New ScopeTable with id 1.1.2 created
+Inserted in ScopeTable# 1.1.2 at position 4, 0
+Not found
+New ScopeTable with id 1.1.2.1 created
+ScopeTable with id 1.1.2.1 removed
+New ScopeTable with id 1.1.2.2 created
+Inserted in ScopeTable# 1.1.2.2 at position 5, 0
+
+ScopeTable # 1.1.2.2
+0 -->
+1 -->
+2 -->
+3 -->
+4 -->
+5 -->  < e : e>
+6 -->
+7 -->
+
+ScopeTable # 1.1.2
+0 -->
+1 -->
+2 -->
+3 -->
+4 -->  < d : d>
+5 -->
+6 -->
+7 -->
+
+ScopeTable # 1.1
+0 -->
+1 -->  < a : a>
+2 -->
+3 -->
+4 -->
+5 -->
+6 -->
+7 -->
+
+ScopeTable # 1
+0 -->
+1 -->
+2 -->
+3 -->
+4 -->
+5 -->
+6 -->
+7 -->
+Found in ScopeTable# 1.1.2 at position 4, 0
+Found in ScopeTable# 1.1 at position 1, 0
+ScopeTable with id 1.1.2.2 removed
+ScopeTable with id 1.1.2 removed
+ScopeTable with id 1.1 removed
+Inserted in ScopeTable# 1 at position 6, 0
+
+ScopeTable # 1
+0 -->
+1 -->
+2 -->
+3 -->
+4 -->
+5 -->
+6 -->  < f : f>
+7 -->
